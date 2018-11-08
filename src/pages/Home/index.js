@@ -65,13 +65,13 @@ export default class Home extends Component{
                                 }}>
                                
                                  <Card
-                                    title="List"
-                                    style={{ width: 800, marginBottom: 20}}
+                                    title="Title" 
+                                    style={{ width: 800, marginBottom: 20,padding :10 }}
                                 >
                                     <p>Card content</p>
                                     <p>Card content</p>
-                                    <p>Card content</p>
-                                    <ButtonToolbar>
+                                    
+                                    <ButtonToolbar >
                                         <ButtonGroup>
                                             <Button>1</Button>
                                             <Button>2</Button>
@@ -96,11 +96,11 @@ export default class Home extends Component{
                                
                                  <Card
                                     title="List"
-                                    style={{ width: 800 }}
+                                    style={{ width: 800, padding:10 }}
                                 >
                                     <p>Card content</p>
                                     <p>Card content</p>
-                                    <p>Card content</p>
+                                    
                                     <ButtonToolbar>
                                         <ButtonGroup>
                                             <Button>1</Button>
